@@ -3,47 +3,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_5"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".onboarding.screens.ThirdScreen">
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="150dp"
-        android:src="@drawable/ic_delivery"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".onboarding.screens.LastScreen">
 
     <TextView
-        android:id="@+id/title3"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_width="120dp"
+
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="@string/payment"
-        android:textSize="30sp"
-        android:textStyle="bold"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:text="(Naah)Rangg Barsee, (Naah) Bheege chunariyaa!!!! Still Happy Holi😂😂😂"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/holi_pic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <TextView
+        android:id="@+id/description4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:text="I hope you are not making faces like this now-->!!🙃"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-    <TextView
-        android:id="@+id/description3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
-        android:gravity="center"
-        android:text="@string/lorem"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ajeeb_pic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/description3"
+        app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title3" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/ajeeb_pic2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toEndOf="@+id/description3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
 
     <TextView
-        android:id="@+id/finish"
+        android:id="@+id/description3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:text="'Good morning uthh jaoo uthana hai toh!!😂'"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/next2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
@@ -51,6 +95,7 @@
         android:text="Finish"
         android:textColor="@color/blue"
         android:textSize="22sp"
+        android:visibility="gone"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

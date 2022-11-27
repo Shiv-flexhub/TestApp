@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">MyTestApp</string>
+    <string name="app_name">Happy Birthday Ishita</string>
 
-    <string name="food">FRESH FOOD</string>
-    <string name="delivery">FAST DELIVERY</string>
-    <string name="payment">EASY PAYMENT</string>
+    <string name="head1">Heading_1</string>
+    <string name="head2">Heading_2</string>
+    <string name="head3">Heading_3</string>
 
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</string>
     <!-- TODO: Remove or change this placeholder text -->

@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.jovanovic.stefan.mytestapp.R
-import com.jovanovic.stefan.mytestapp.onboarding.screens.FirstScreen
-import com.jovanovic.stefan.mytestapp.onboarding.screens.SecondScreen
-import com.jovanovic.stefan.mytestapp.onboarding.screens.ThirdScreen
+import com.jovanovic.stefan.mytestapp.onboarding.screens.*
 import kotlinx.android.synthetic.main.fragment_view_pager.view.*
 
 class ViewPagerFragment : Fragment() {
@@ -23,7 +21,13 @@ class ViewPagerFragment : Fragment() {
         val fragmentList = arrayListOf<Fragment>(
             FirstScreen(),
             SecondScreen(),
-            ThirdScreen()
+            ThirdScreen(),
+            FourthScreen(),
+            FifthScreen(),
+            SixthScreen(),
+            SeventhScreen(),
+            EighthScreen(),
+            LastScreen()
         )
 
         val adapter = ViewPagerAdapter(
